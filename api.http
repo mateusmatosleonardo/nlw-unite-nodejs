@@ -2,7 +2,22 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "Evento random 2",
-  "details": "Um evento random 2",
-  "maximumAttendees": 40
+  "title": "Novo evento 2",
+  "details": null,
+  "maximumAttendees": 1
 }
+
+###
+POST http://localhost:3333/events/6c4eb8c8-43e4-42c9-91fb-3a2b9da590d3/attendees
+Content-Type: application/json
+
+{
+  "name": "Mateus Leonardo",
+  "email": "mateus2@rocketseat.com.br"
+}
+
+###
+GET http://localhost:3333/events/6c4eb8c8-43e4-42c9-91fb-3a2b9da590d3
+
+###
+GET http://localhost:3333/attendees/2/badge
