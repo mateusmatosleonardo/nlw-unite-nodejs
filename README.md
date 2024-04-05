@@ -12,19 +12,19 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 ### Requisitos funcionais
 
-- [ ] o organizador deve poder cadastrar um novo evento;
-- [ ] o organizador deve poder visualizar dados de um evento;
-- [ ] o organizador deve poder visualizar a lista de participantes;
-- [ ] o participante deve poder se inscrever em um evento;
-- [ ] o participante deve poder visualizar seu crachá de inscrição;
-- [ ] o participante deve poder realizar check-in no evento;
+- [x] o organizador deve poder cadastrar um novo evento;
+- [x] o organizador deve poder visualizar dados de um evento;
+- [x] o organizador deve poder visualizar a lista de participantes;
+- [x] o participante deve poder se inscrever em um evento;
+- [x] o participante deve poder visualizar seu crachá de inscrição;
+- [x] o participante deve poder realizar check-in no evento;
 
 ### Regras de negócio
 
-- [ ] o participante só pode se inscrever em um evento uma única vez;
-- [ ] o participante só pode se inscrever em eventos com vagas disponíveis;
-- [ ] o participante só pode realizar check-in em um evento um única vez;
+- [x] o participante só pode se inscrever em um evento uma única vez;
+- [x] o participante só pode se inscrever em eventos com vagas disponíveis;
+- [x] o participante só pode realizar check-in em um evento um única vez;
 
 ### Requisitos não-funcionais
 
-- [ ] O check-in no evento será realizado através de um QRCode;
+- [x] O check-in no evento será realizado através de um QRCode;
