@@ -1,4 +1,8 @@
 import fastify from "fastify";
+
+import fastifySwagger from "@fastify/swagger";
+import fastifySwaggerUI from "@fastify/swagger-ui";
+
 import {
   serializerCompiler,
   validatorCompiler,
