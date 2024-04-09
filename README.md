@@ -28,3 +28,6 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 ### Requisitos não-funcionais
 
 - [x] O check-in no evento será realizado através de um QRCode;
+
+### Diagrama
+![Captura de tela de 2024-04-05 23-56-12](https://github.com/mateusmatosleonardo/nlw-unite-nodejs/assets/73812069/c7a41b75-c56c-4765-96bf-dbe81a442a19)
